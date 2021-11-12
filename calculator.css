@@ -29,6 +29,8 @@ body
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
     padding: 20px 5px;
+    max-width: 400px;
+    overflow: scroll;
 }
 
 .calc-button{
