@@ -67,10 +67,16 @@ background: linear-gradient(to right, #f99b53, #ff6b46); /* W3C, IE 10+/ Edge, F
 }
 
 .calc-button:last-child:hover{
-    background-color: #f2a757;
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f1f4c8, #cdca77);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f1f4c8, #cdca77); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 .calc-button:last-child:active{
-    background-color: #f2993a;
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f0f789, #d3cd10);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f0f789, #d3cd10); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
 }
 
 .double{
