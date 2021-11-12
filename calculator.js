@@ -30,7 +30,7 @@ function handleNumber(value) {
 function handleSymbol(value) {
   switch (value) {
     
-    case "C":
+    case "C" :
       buffer = "0";
       runningTotal = 0;
       previousOperator = null;
